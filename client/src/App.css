@@ -1,0 +1,19 @@
+.Playground-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.editor-container{
+    min-height: 65vh;
+    display: flex;
+
+}
+
+.file-node{
+  background-color: rgb(173, 230, 198);
+
+}
+
+li{
+    list-style-type: none;
+}
