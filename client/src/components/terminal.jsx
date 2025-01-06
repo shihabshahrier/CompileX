@@ -17,9 +17,16 @@ export default function Terminal() {
             socket.emit('console:write', data)
         })
 
-        socket.on('console:data', data => {
+        // socket.on('console:data', data => {
+        //     terminal.write(data)
+        // })
+
+        function onTerminalData(data){
             terminal.write(data)
-        })
+        }
+        socket.on('console:data', data =>{onTerminalData(data)})
+
+        socket.off('console:data', onTerminalData)
 
     }
     , [])

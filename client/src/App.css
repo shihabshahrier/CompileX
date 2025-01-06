@@ -9,6 +9,10 @@
 
 }
 
+.files{
+  padding: 50px;
+}
+
 .file-node{
   background-color: rgb(173, 230, 198);
 
