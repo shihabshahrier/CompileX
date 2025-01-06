@@ -10,7 +10,6 @@ An **online code editor and compiler** supporting multiple languages with real-t
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ---
@@ -140,11 +139,6 @@ We welcome all contributions—bug fixes, new features, or documentation improve
 
 ---
 
-## License
-
-This project is distributed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
-
----
 
 ## Contact
 
